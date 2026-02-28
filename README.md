@@ -8,7 +8,7 @@ The application is built with scalability, performance optimization, real-time c
 
 ## 🚀 Live Demo
 
-- Stock-Scope:https://stock-scope-frontend-nine.vercel.app
+- Stock-Scope  :  https://stock-scope-frontend-nine.vercel.app
 ---
 
 # 🏗️ Tech Stack
