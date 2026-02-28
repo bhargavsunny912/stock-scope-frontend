@@ -22,7 +22,7 @@ const Ipo=()=>{
 
     useEffect(()=>{
         async function SpecificIpoData(type){
-            const res=await fetch("/api/ipo");
+            const res=await fetch(`${import.meta.env.VITE_API_URL}/api/ipo`);
             if(!res.ok){
                 throw new Error("Failed to fetch Ipo Data");
             }
