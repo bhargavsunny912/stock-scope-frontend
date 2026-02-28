@@ -74,12 +74,14 @@ The application is built with scalability, performance optimization, real-time c
   - Notifications (extensible for future enhancements)
 
 ---
+# 🚀 Performance Optimizations
 
-## ⚡ Performance & Security
-- Rate limiting implemented to prevent abuse and excessive API usage.
-- Server-side caching to optimize performance and reduce database load.
-- Secure backend architecture.
-- Production-ready cloud deployment.
+- Implemented **Lazy Loading** to reduce initial bundle size and improve page load speed.
+- Used **React.memo** to prevent unnecessary component re-renders.
+- Optimized component rendering for better runtime efficiency.
+- Applied state management best practices using Redux Toolkit.
+- Implemented server-side caching to reduce database load.
+- Enabled rate limiting to protect APIs from excessive requests.
 
 ---
 
