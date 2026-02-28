@@ -7,7 +7,7 @@ const Scrollable = () => {
   const content = (
     <>
       {[...Array(8)].map((_, i) => (
-        <span key={i} className="mx-10 text-amber-800 font-medium flex items-center shrink-0">
+        <span key={i} className="mx-10 mt-20 text-amber-800 font-medium flex items-center shrink-0">
           <span className="w-2 h-2 bg-amber-400 rounded-full mr-4 inline-block"></span>
           {tickerText}
         </span>

@@ -333,7 +333,7 @@ const ExchangeRates = () => {
   }, []);
 
   return (
-    <div className="py-3 mt-6 flex justify-around bg-linear-to-r from-blue-500 to-blue-600">
+    <div className="py-3 flex justify-around bg-linear-to-r from-blue-500 to-blue-600">
       <Nifty data={nifty} />
       <Sensex data={sensex} />
       <BankNifty data={bankNifty} />
