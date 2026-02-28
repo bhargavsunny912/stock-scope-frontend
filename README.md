@@ -8,9 +8,7 @@ The application is built with scalability, performance optimization, real-time c
 
 ## 🚀 Live Demo
 
-- **Frontend:** (Add your Vercel URL here)
-- **Backend API:** (Add your Render URL here)
-
+- **Frontend:https://stock-scope-frontend-nine.vercel.app
 ---
 
 # 🏗️ Tech Stack
@@ -38,9 +36,7 @@ The application is built with scalability, performance optimization, real-time c
 - Nodemailer (Email service)
 - Rate Limiting
 - Server-side Caching
-
 ---
-
 # ✨ Features
 
 ## 🔓 Public Market Access
@@ -106,11 +102,11 @@ Implemented using Lightweight Charts:
 ---
 
 # 🏛️ Project Architecture
-Frontend (Vercel)
-↓
-Backend (Render)
-↓
-MongoDB Atlas (Cloud Database)
+Frontend (Vercel)\
+↓\
+Backend (Render)\
+↓\
+MongoDB Atlas (Cloud Database)\
 
 ---
 
@@ -157,15 +153,15 @@ git clone https://github.com/your-username/your-repo.git
 
 ## 2️⃣ Backend Setup
 
-cd server
-npm install
-npm run dev
+cd server\
+npm install\
+npm run dev\
 
 ## 3️⃣ Frontend Setup
 
-cd client
-npm install
-npm run dev
+cd client\
+npm install\
+npm run dev\
 
 ---
 
@@ -199,20 +195,6 @@ npm run dev
 - Secure authentication.
 - Scalable cloud deployment.
 
----
-
-# 🤝 Contribution
-
-Contributions are welcome.
-Feel free to fork the repository and submit pull requests.
-
----
-
-# 📄 License
-
-This project is open-source and available under the MIT License.
-
----
 
 # 👨‍💻 Author
 
