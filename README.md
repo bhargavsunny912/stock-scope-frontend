@@ -155,13 +155,13 @@ git clone https://github.com/your-username/your-repo.git
 
 cd server\
 npm install\
-npm run dev\
+npm run dev
 
 ## 3️⃣ Frontend Setup
 
 cd client\
 npm install\
-npm run dev\
+npm run dev
 
 ---
 
