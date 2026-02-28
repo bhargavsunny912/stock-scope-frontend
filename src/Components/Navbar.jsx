@@ -15,7 +15,7 @@ const Navbar=()=>{
     const dispatch=useDispatch();
 
     async function submitLogout() {
-        const res=await fetch("http://localhost:8000/auth/logout",{
+        const res=await fetch(`${import.meta.env.VITE_API_URL}/auth/logout`,{
             method:"GET",
             credentials:"include"
         });
