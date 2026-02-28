@@ -1,0 +1,125 @@
+.scrollHide::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+
+
+.chart-container {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.market-status {
+  position: absolute;
+  top: 12px;
+  left: 15px;           
+  z-index: 9;         
+
+  padding: 6px 12px;
+  border-radius: 6px;
+
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  background: rgba(0, 0, 0, 0.6);  
+  backdrop-filter: blur(4px);
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.live-blink {
+  color: #ff2e2e;      
+  animation: blink 1s infinite;
+}
+
+.market-closed {
+  color: red;     
+  font-weight: bold;
+}
+
+@keyframes blink {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.2; }
+  100% { opacity: 1; }
+}
+
+.input-label{
+  font-size: 11;
+  color: #6b7280;
+  letter-spacing: "0.07em";
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.input{
+  padding: 12px 16px; 
+  border-radius: 12px;
+  color: #1e293b;
+  font-size:14px;
+  width: 100%;
+  outline:none; 
+  box-sizing:border-box;
+  background:white;
+  transition: border 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+  border:1.5px solid #e2e8f0;
+  box-shadow:none;
+}
+.input:focus{
+  border:1.5px solid #3b82f6;
+  box-shadow:0 0 0 3px rgba(59,130,246,0.12);
+}
+
+.primary-btn{
+    width: 100%;
+    padding:13px 0;background-color:#2563eb;
+    color: white;
+    font-weight: 600; 
+    font-size: 13px; 
+    letter-spacing:0.06em;
+    border:none;
+    border-radius: 12px;
+    cursor:pointer;
+    font-family: inherit;
+    box-shadow:0 4px 14px rgba(37,99,235,0.35); 
+    transition:background-color 0.2s
+}
+
+.link-btn{
+    color:#3b82f6;
+    font-weight: 600;
+    border:none;
+    background:none;
+    cursor:pointer;
+    font-size: 12px;
+    font-family:inherit;
+    padding: 0px;
+}
+
+.right-container{
+  width:40%;
+  background-color:white;
+  display:flex;
+  align-items:start;
+  justify-content:center;
+  padding:40px 32px;
+  overflow-y: auto;
+}
+
