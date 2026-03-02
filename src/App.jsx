@@ -8,6 +8,7 @@ import StockScopeAuth from './Components/Authentication/StockScopeAuth'
 import PageLoader from './Components/Authentication/Loader'
 import { useDispatch, useSelector } from 'react-redux'
 import { checkAuth } from './Redux/IsLogin'
+import OAuthSuccess from './Components/Authentication/OAuthSuccess'
 
 const StockPage=lazy(()=>import('./Pages/StockPage'));
 const IPOPage=lazy(()=>import('./Pages/IPOPage'));
@@ -25,7 +26,7 @@ function App() {
       useEffect(()=>{
         if(status!==true){
             async function isLogin() {
-            const res=await fetch("http://localhost:8000/auth/islogin",{
+            const res=await fetch(`${import.meta.env.VITE_API_URL}/auth/islogin`,{
                 method:"GET",
                 credentials:"include",
                 headers:{
@@ -51,6 +52,7 @@ function App() {
       <Suspense fallback={<PageLoader />}>
           <Routes>
           <Route path='/auth' element={<StockScopeAuth />} />
+          <Route path="/oauth-success" element={<OAuthSuccess />} />
           <Route path='/' element={<Layout />} >
             <Route index element={<HomePage />} />
             <Route element={<Protected />}>

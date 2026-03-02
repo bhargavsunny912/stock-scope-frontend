@@ -1,9 +1,9 @@
-import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { FaStar } from "react-icons/fa6";
 import { useDispatch, useSelector } from "react-redux";
 import { checkAuth } from "../Redux/IsLogin";
 import { toast } from "react-toastify";
+import { useState } from "react";
 
 const Navbar=()=>{
 
