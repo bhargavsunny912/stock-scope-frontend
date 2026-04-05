@@ -65,6 +65,8 @@ The application is built with scalability, performance optimization, real-time c
 - Secure cookie-based session handling.
 - Password hashing using bcrypt.
 - Protected routes for authenticated users.
+- Implemented Google OAuth 2.0 authentication using Passport.js with secure JWT cookie-based session management.
+- Added account linking logic to prevent duplicate users (email + Google ID mapping).
 
 ---
 
@@ -142,8 +144,6 @@ MongoDB Atlas (Cloud Database)\
 
 ## 🔐 Authentication Improvements
 - Refresh token implementation.
-- Role-based access control.
-- OAuth integration (Google / GitHub).
 - Enhanced session management.
 
 ---
